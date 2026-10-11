@@ -3,16 +3,12 @@
   "name": "my-site",
   "main": "src/index.tsx",
   "compatibility_date": "2026-10-11",
-  "routes": [
-    {
-      "pattern": "langpn.xyz",
-      "custom_domain": true
-    },
-    {
-      "pattern": "www.langpn.xyz",
-      "custom_domain": true
-    }
-  ]
+  "workers_dev": true
+  // Để gắn domain riêng sau khi chạy `npx wrangler login`, bỏ comment khối dưới:
+  // "routes": [
+  //   { "pattern": "langpn.xyz", "custom_domain": true },
+  //   { "pattern": "www.langpn.xyz", "custom_domain": true }
+  // ]
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
